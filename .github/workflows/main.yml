@@ -1,14 +1,14 @@
 name: CI
 on:
-    pull_request:
-        branches:
-            - "*"
-    push:
-        branches:
-            - develop
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - develop
 
 env:
-    IMAGE_NAME: unitystation/central-command
+  IMAGE_NAME: unitystation/central-command
 
 jobs:
     lint:
